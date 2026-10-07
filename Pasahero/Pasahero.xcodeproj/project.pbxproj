@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00544FBDD9F2D1ADE96D7530 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDAB0A2CC014E34119884F8 /* Trip.swift */; };
+		0C31A37991D266BD4250E399 /* RouteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F632607BC06F6A2913515E64 /* RouteListView.swift */; };
+		25A99FC8A7ED31E39831A9E2 /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95A345B157EEACBA4CFD42A /* Budget.swift */; };
+		289EC85187BE8884E40A69B2 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13094259ECC18B3404336BE /* Formatters.swift */; };
+		32646436649C1DDB728690D1 /* TripListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F1C9E1F378F31CE8312F69 /* TripListView.swift */; };
+		3B63A4D6BBF158F95EF5C401 /* BudgetFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B315E7400F454D116C816D46 /* BudgetFormView.swift */; };
+		3BEDB48D1794ECE4D4D94483 /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4060220AB36F446E288DC154 /* TripDetailView.swift */; };
+		40DA863626E720752FB9EA18 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94D618FCE21931AC0427D4B /* DashboardView.swift */; };
+		45DAF9C0AABCB68DAF7DF976 /* RouteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B706320484EB40D2421B4E /* RouteRowView.swift */; };
+		45DD914E8C79CF0703759073 /* SharedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1CE7FBE0F5FD7338BC5F6F /* SharedViews.swift */; };
+		5796CD5A7183712F2528571C /* VehicleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929B97C927CB9AA8977CB1BB /* VehicleType.swift */; };
+		87A52FF41B5385EA151C1168 /* SavedRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610BC34676B59B50663F876B /* SavedRoute.swift */; };
+		880166610CA920247559D0FF /* TripRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47A51C286139CD15B531FF /* TripRowView.swift */; };
+		8BD0A0328728A9D001B2A3B7 /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDFEECBE18774164A4880AE /* BudgetView.swift */; };
+		97684D22F65BB45C560ED779 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5515B5E5586E96663B2921 /* Theme.swift */; };
+		B2B00F58795949C168543C83 /* BudgetSummaryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B7CEFFDFADB373B9AA927D /* BudgetSummaryCard.swift */; };
+		BAE8F31264C043D5F7787E2A /* TripFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E280CC5E0951B4A7DF4D49 /* TripFormView.swift */; };
+		DBEFF40B29D879E5BA670C1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C039DFBD5F3804EF9A3C602 /* ContentView.swift */; };
+		DD48CB834F3E8F2DA3AC06E6 /* RouteFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4508327E8D3FC6584F2146DF /* RouteFormView.swift */; };
+		DD8A77E80AB9E29DCB0BB326 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3832254BE0F63FDFB3FA9E /* SampleData.swift */; };
+		E9A25E40135E918E08E27F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16698DBAD4C48AB12BE06A70 /* Assets.xcassets */; };
+		FCB6149D983E448022C26C5F /* PasaheroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969A293BE6A0FAE0903D0CE8 /* PasaheroApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16698DBAD4C48AB12BE06A70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F47A51C286139CD15B531FF /* TripRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripRowView.swift; sourceTree = "<group>"; };
+		2A1CE7FBE0F5FD7338BC5F6F /* SharedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViews.swift; sourceTree = "<group>"; };
+		4060220AB36F446E288DC154 /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
+		4508327E8D3FC6584F2146DF /* RouteFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteFormView.swift; sourceTree = "<group>"; };
+		47F1C9E1F378F31CE8312F69 /* TripListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListView.swift; sourceTree = "<group>"; };
+		4CDFEECBE18774164A4880AE /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
+		57E280CC5E0951B4A7DF4D49 /* TripFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFormView.swift; sourceTree = "<group>"; };
+		58B7CEFFDFADB373B9AA927D /* BudgetSummaryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetSummaryCard.swift; sourceTree = "<group>"; };
+		5C039DFBD5F3804EF9A3C602 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		610BC34676B59B50663F876B /* SavedRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedRoute.swift; sourceTree = "<group>"; };
+		7A3832254BE0F63FDFB3FA9E /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		929B97C927CB9AA8977CB1BB /* VehicleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleType.swift; sourceTree = "<group>"; };
+		969A293BE6A0FAE0903D0CE8 /* PasaheroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasaheroApp.swift; sourceTree = "<group>"; };
+		B315E7400F454D116C816D46 /* BudgetFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetFormView.swift; sourceTree = "<group>"; };
+		C6B706320484EB40D2421B4E /* RouteRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteRowView.swift; sourceTree = "<group>"; };
+		D13094259ECC18B3404336BE /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		D94D618FCE21931AC0427D4B /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		DB5515B5E5586E96663B2921 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		EBDAB0A2CC014E34119884F8 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		F5BF48AA40CAD7891EB709FC /* Pasahero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pasahero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F632607BC06F6A2913515E64 /* RouteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteListView.swift; sourceTree = "<group>"; };
+		F95A345B157EEACBA4CFD42A /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		059DB2086B49B680F85B3555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35C811E4ED6D34FCC1B08E61 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2A1CE7FBE0F5FD7338BC5F6F /* SharedViews.swift */,
+				DB5515B5E5586E96663B2921 /* Theme.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E8072C8EC31B6C9D03721211 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F95A345B157EEACBA4CFD42A /* Budget.swift */,
+				610BC34676B59B50663F876B /* SavedRoute.swift */,
+				EBDAB0A2CC014E34119884F8 /* Trip.swift */,
+				929B97C927CB9AA8977CB1BB /* VehicleType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1BEBE64444DECD4ABEA1CDFB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D13094259ECC18B3404336BE /* Formatters.swift */,
+				7A3832254BE0F63FDFB3FA9E /* SampleData.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		49915B6FC5A270F60280DBD3 /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				B315E7400F454D116C816D46 /* BudgetFormView.swift */,
+				58B7CEFFDFADB373B9AA927D /* BudgetSummaryCard.swift */,
+				4CDFEECBE18774164A4880AE /* BudgetView.swift */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		3CAFBDCC53E86C6D58F903F6 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				D94D618FCE21931AC0427D4B /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		249A9CA2FA07EA5D1DA0D5AD /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				4508327E8D3FC6584F2146DF /* RouteFormView.swift */,
+				F632607BC06F6A2913515E64 /* RouteListView.swift */,
+				C6B706320484EB40D2421B4E /* RouteRowView.swift */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
+		1E6E81111A92516D7F8C89CF /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				4060220AB36F446E288DC154 /* TripDetailView.swift */,
+				57E280CC5E0951B4A7DF4D49 /* TripFormView.swift */,
+				47F1C9E1F378F31CE8312F69 /* TripListView.swift */,
+				1F47A51C286139CD15B531FF /* TripRowView.swift */,
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		58302865FEEBA9393165635F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49915B6FC5A270F60280DBD3 /* Budget */,
+				3CAFBDCC53E86C6D58F903F6 /* Dashboard */,
+				249A9CA2FA07EA5D1DA0D5AD /* Routes */,
+				1E6E81111A92516D7F8C89CF /* Trips */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DA56646977E9C3F6309EBF50 /* Pasahero */ = {
+			isa = PBXGroup;
+			children = (
+				35C811E4ED6D34FCC1B08E61 /* Components */,
+				E8072C8EC31B6C9D03721211 /* Models */,
+				1BEBE64444DECD4ABEA1CDFB /* Utilities */,
+				58302865FEEBA9393165635F /* Views */,
+				16698DBAD4C48AB12BE06A70 /* Assets.xcassets */,
+				5C039DFBD5F3804EF9A3C602 /* ContentView.swift */,
+				969A293BE6A0FAE0903D0CE8 /* PasaheroApp.swift */,
+			);
+			path = Pasahero;
+			sourceTree = "<group>";
+		};
+		2B731CEFC6751AAE0EC69B98 = {
+			isa = PBXGroup;
+			children = (
+				DA56646977E9C3F6309EBF50 /* Pasahero */,
+				0A2C978E52A76F0AA9F68BB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A2C978E52A76F0AA9F68BB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF48AA40CAD7891EB709FC /* Pasahero.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* Pasahero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BD75DECF42B745CB4F39AA /* Build configuration list for PBXNativeTarget "Pasahero" */;
+			buildPhases = (
+				FCA229C23F166EBB0BA5029E /* Sources */,
+				059DB2086B49B680F85B3555 /* Frameworks */,
+				B9C6EB6F79FC54535ACB3053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pasahero;
+			productName = Pasahero;
+			productReference = F5BF48AA40CAD7891EB709FC /* Pasahero.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C33C66E28B3501D071CFB88C /* Build configuration list for PBXProject "Pasahero" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B731CEFC6751AAE0EC69B98;
+			productRefGroup = 0A2C978E52A76F0AA9F68BB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* Pasahero */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9C6EB6F79FC54535ACB3053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A25E40135E918E08E27F74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA229C23F166EBB0BA5029E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DD914E8C79CF0703759073 /* SharedViews.swift in Sources */,
+				97684D22F65BB45C560ED779 /* Theme.swift in Sources */,
+				25A99FC8A7ED31E39831A9E2 /* Budget.swift in Sources */,
+				87A52FF41B5385EA151C1168 /* SavedRoute.swift in Sources */,
+				00544FBDD9F2D1ADE96D7530 /* Trip.swift in Sources */,
+				5796CD5A7183712F2528571C /* VehicleType.swift in Sources */,
+				289EC85187BE8884E40A69B2 /* Formatters.swift in Sources */,
+				DD8A77E80AB9E29DCB0BB326 /* SampleData.swift in Sources */,
+				3B63A4D6BBF158F95EF5C401 /* BudgetFormView.swift in Sources */,
+				B2B00F58795949C168543C83 /* BudgetSummaryCard.swift in Sources */,
+				8BD0A0328728A9D001B2A3B7 /* BudgetView.swift in Sources */,
+				40DA863626E720752FB9EA18 /* DashboardView.swift in Sources */,
+				DD48CB834F3E8F2DA3AC06E6 /* RouteFormView.swift in Sources */,
+				0C31A37991D266BD4250E399 /* RouteListView.swift in Sources */,
+				45DAF9C0AABCB68DAF7DF976 /* RouteRowView.swift in Sources */,
+				3BEDB48D1794ECE4D4D94483 /* TripDetailView.swift in Sources */,
+				BAE8F31264C043D5F7787E2A /* TripFormView.swift in Sources */,
+				32646436649C1DDB728690D1 /* TripListView.swift in Sources */,
+				880166610CA920247559D0FF /* TripRowView.swift in Sources */,
+				DBEFF40B29D879E5BA670C1D /* ContentView.swift in Sources */,
+				FCB6149D983E448022C26C5F /* PasaheroApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2D53B50AE2273FABAAF8B8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4B2141B77146EF47E948847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA7C752E798F561D7D156D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pasahero;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuancortez.Pasahero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22F75101C717335ACF4089A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pasahero;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuancortez.Pasahero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C33C66E28B3501D071CFB88C /* Build configuration list for PBXProject "Pasahero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D53B50AE2273FABAAF8B8FA /* Debug */,
+				D4B2141B77146EF47E948847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BD75DECF42B745CB4F39AA /* Build configuration list for PBXNativeTarget "Pasahero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7C752E798F561D7D156D98 /* Debug */,
+				22F75101C717335ACF4089A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
